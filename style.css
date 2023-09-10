@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Helvetica', sans-serif; 
 }
-.background{
+.background{ /*selector untuk elemen dengan kelas "background". Kode CSS ini mengatur berbagai properti untuk elemen ini, termasuk lebar, tinggi, gambar latar belakang, posisi latar belakang, dan ukuran latar belakang */
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(foto/solooy.jpg);
@@ -13,12 +13,12 @@
     padding-right: 8%;
     box-sizing: border-box;
 }
-.navbar{
+.navbar{ /* mengatur tinggi dan tata letak elemen ini, sehingga elemen-elemen di dalamnya akan ditampilkan secara sejajar */
     height: 12%;
     display: flex;
     align-items: center;
 }
-.logo{
+.logo{ /*  mengatur lebar dan tampilan kursor ketika diarahkan ke elemen-elemen ini */
     width: 50px;
     cursor: pointer;
 }
@@ -27,11 +27,11 @@
     cursor: pointer;
     margin-left: 40px;
 }
-nav{
+nav{ /* mengisi fleks secara dinamis dan menempatkannya di sebelah kanan */
     flex: 1;
     text-align: right;
 }
-nav ul li{
+nav ul li{ /* ini mengatur tampilan daftar menu dan tautan menu */
     list-style: none;
     display: inline-block;
     margin-left: 60px;
@@ -44,12 +44,12 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: underline;
 }
-section{
+section{ /* mengatur tampilan elemen ini, termasuk penataan tengah elemen dan margin bawah */
     margin: auto;
     display: flex;
     margin-bottom: 50px;
 }
-.row{
+.row{ /*digunakan untuk mengatur tata letak kolom di dalam elemen dengan kelas "row" */
     display: flex;
     height: 88%;
     align-items: center;
@@ -57,7 +57,7 @@ section{
 .col{
     flex-basis: 50%;  
 }
-h1{
+h1{ /* mengatur warna teks dan ukuran font */
     color: white;
     font-size: 100px;
 
@@ -67,7 +67,7 @@ p{
     font-size: 11px;
     line-height: 15px;
 }
-button{
+button{ /* mengatur tampilan tombol, termasuk lebar, warna latar belakang, dan bentuknya */
     width: 180px;
     color: #000;
     font-size: 12px;
@@ -78,7 +78,7 @@ button{
     outline: none;
     margin-top: 30px;
 }
-.card{
+.card{ /* digunakan untuk mengatur tampilan kartu-kartu dengan gambar latar belakang yang berbeda. Selain itu, ada efek hover yang mengubah posisi kartu saat dihover */
    width: 200px;
    height: 230px;
    display: inline-block;
@@ -107,7 +107,7 @@ button{
 .card:hover{
      transform: translateY(-10px)
 }
-h5{
+h5{ /* mengatur tampilan teks pada kartu, termasuk warna teks dan bayangan teks */
     color: white;
     text-shadow: 0 0 5px #999;
 }
